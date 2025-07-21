@@ -1,0 +1,28 @@
+{
+  "name": "deezstream-benchmarking",
+  "version": "1.0.0",
+  "description": "Benchmark DeezStream against a standard Geyser gRPC service.",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "tsc"
+  },
+  "keywords": [
+    "solana",
+    "deezstream",
+    "geyser",
+    "benchmark"
+  ],
+  "author": "deezstream",
+  "license": "MIT",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.3"
+  },
+  "dependencies": {
+    "@deezstream/grpc-client": "^1.0.0",
+    "@triton-one/yellowstone-grpc": "^4.0.2",
+    "bs58": "^5.0.0",
+    "dotenv": "^16.4.5"
+  }
+}
